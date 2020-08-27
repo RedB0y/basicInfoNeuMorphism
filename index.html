@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			font-family: 'Poppins', sans-serif,"Times New Roman",Times,serif;
+			font-weight: lighter;
+			font-size: 1em;
+			background:#dde1e7;
+		}
+		body,html{
+			padding: 0px;
+			border: 0px;
+		}
+		span{
+			font-weight: 400;
+			font-size: 1.2em;
+			font-family: 
+			letter-spacing:1px;
+		}
+		input[type="text"],select{
+			margin-top: 15px;
+			margin-bottom: 5px;
+			box-sizing: border-box;
+			padding-top: 5px;
+			outline:none;
+			border-radius:10px;
+			transition: .2s ease-in;
+			border-color:#00000055;
+			border-width: 1.5px;
+		}
+		
+		.neu{
+			border-radius:15px;
+			box-shadow:-4px -4px 6px #ffffff73 inset, 4px 4px 5px rgba(91,104,121,.288) inset;
+		}
+
+		.abtmecon{
+			
+			margin-top: 4vh;
+			position: relative;
+			left:50%;
+			transform:translateX(-50%);
+			max-width:400px;
+			height:600px;
+			background:#dde1e7;
+			padding: 15px
+		}
+
+		.conatiner{
+			position: relative;
+			left:50%;
+			transform:translateX(-50%);
+			width:400px;
+			height: 600px;
+			background:#dde1e7;
+			padding: 15px;
+			display:flex;
+			flex-direction: column;
+			align-items: baseline;
+			justify-content: center;
+			
+		}
+
+
+		#addr{
+			font-weight: lighter;
+			font-size: 0.9em;
+			
+
+		}
+
+		h3{
+			font-size: 2em;
+			font-weight: 500;
+		}
+		p{
+			text-align: justify;
+		}
+
+		
+		p:first-letter{
+			font-size: 45px;
+			float: left;
+			margin-right: 10px;
+			font-weight: bold;
+
+		}
+		@media only screen and (max-width:768px){
+			input[type="text"],select{
+				font-size: 0.5em;
+			}
+			p{
+			font-size: 0.5em;
+
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div class="conatiner neu">
+		<label for="name">
+			Name:
+			<input type="text" id="name" value="Y Rohit" readonly="true">
+		</label>
+		</br>
+		<label for="email">
+			Email:
+			<input type="text" id="email" value="rohityajna@gmail.com" readonly="true">
+		</label>
+		</br>
+
+		<label for="addr">
+			Address:
+			<input  type="text" id="addr" value="230/2RT Saidabad Colony"  readonly="true" size="25">
+		</label>
+		</br>
+
+		<label for="city">
+			City:
+			<select id="city" disabled="true">
+				<option value="Hyderabad" selected="true"> Hyderabad</option>
+			</select>
+		</label>
+		</br>
+		<label for="state">
+			State:
+			<select id="state" disabled="true">
+				<option value="Telangana" selected="true"> Telangana</option>
+			</select>
+		</label>
+		</br>
+		<label for="pno">
+			Phone Number: 
+			<input type="text" id="pno" value="7995974421" readonly="true">
+		</label>
+		</br>
+		<label for="Pin">
+			Position Interested In:
+			<input type="text" id="Pin" value="Web Development"  readonly="true">
+		</label>
+</div>
+
+<div class="abtmecon neu">
+	<h3>About Me </h3>
+	<p>My name is rohit(*hello sir/ma'am *) and i'm a curious student from Hyderabadd,i'm pursuing my undergraduate Computer Science degree from Global institute of Engineering and Technology. i'll be honest with you i'm not a web development guru or an ideal-perfect student with good grades from a reputated college. i'm just an ordinary guy, who is intressted in programming and there are plenty of others like me. but, but... what seperates me from the crowd is the fact that i'm starting to see this beautiful world without any preconcived notions and conditionings. this gave me the ability to see a situation or a problem more openly, and to start the journey where others end. thank you sir/ma'am for spending your valuable time. hope you have a pleasant day!   
+ 	</p>
+
+</div>
+</body>
+</html>
